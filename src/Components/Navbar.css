@@ -1,0 +1,33 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 20px 40px;
+  background-color: #FFCCCB;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  font-family: 'Preahvihear', sans-serif;
+}
+
+.navbar-brand {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1a202c;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 40px; 
+}
+
+.navbar-links a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #1a202c;
+  font-weight: 400;
+}
+
+.navbar-links a:hover {
+  text-decoration: underline;
+}
