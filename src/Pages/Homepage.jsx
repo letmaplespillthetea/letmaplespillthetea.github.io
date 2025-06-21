@@ -1,14 +1,25 @@
-import React from 'react';
-import { FaUniversity } from 'react-icons/fa';
-import Navbar from '../Components/Navbar';
 import './Homepage.css';
-
+import ClosingSlider from '../Components/ClosingSlider.jsx';
 
 const Homepage = () => {
   return (
     <>
       <div className="homepage">
-     
+        <div className="social-wrapper">
+          
+          <div className="social-column">
+            <a href="https://www.instagram.com/lemoontear/" target="_blank" rel="noopener noreferrer">
+              <img src="/social media/instagram.png" alt="Instagram" />
+            </a>
+            <a href="https://www.behance.net/letmaplespillthetea" target="_blank" rel="noopener noreferrer">
+              <img src="/social media/behance.png" alt="Behance" />
+            </a>
+            <a href="https://www.reddit.com/user/kohaku555/" target="_blank" rel="noopener noreferrer">
+              <img src="/social media/reddit.png" alt="Reddit" />
+            </a>
+          </div>
+        </div>
+
         <section className="intro-section">
           <div className="intro-left">
             <div className="image-wrapper">
@@ -18,7 +29,7 @@ const Homepage = () => {
                 className="profile-image"
               />
               <div className="maple">
-                <img src="/maple.svg" alt="maple" className="maple" />
+                <img src="gif/little star.gif" alt="maple" className="maple" />
               </div>
             </div>
           </div>
@@ -46,19 +57,18 @@ const Homepage = () => {
           <h2 className="work-title">Still in school, already in the game industry (sort of).</h2>
           <p className="work-text">
             Currently, I'm a third-year student at{' '}
-            <img src="/uet.svg" alt="uet" className="university-icon"/>
             <span style={{ color: '#FF4D56'}}> UET-VNU</span>
             , <br/> and a game designer intern at 
-            <span style={{ color: '#FF4D56'}}> Falcon Game Studio </span>.
+            <span style={{ color: '#FF4D56'}}> Falcon Game Studio</span>.
           </p>
         </section>
 
-        <section className="closing-text">
-          This is supposed to be where I share a little detail about myself, but I couldn’t think
-          of anything cool. So, maybe let me send you warm wishes for a wonderful day instead!
+        <section className="closing-section">
+          <ClosingSlider/>
+          <div className="gif-container">
+            <img src="/gif/star.gif" className="gif-item" />
+          </div>
         </section>
-
-        <h3 className="recent-posts">Recent Posts</h3>
       </div>
     </>
   );

@@ -48,8 +48,8 @@
   background: radial-gradient(
     190% 180% at 0% 50%,  
     rgba(255, 77, 86, 1) 0%,
-    rgba(255, 177, 177, 1) 57%,
-    rgba(255, 77, 86, 1) 70%
+    #ffb1b1 57%,
+    #ff4d56 70%
   );
   opacity: 0.14
 }

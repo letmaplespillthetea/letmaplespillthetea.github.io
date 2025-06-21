@@ -1,0 +1,57 @@
+.closing-slider {
+  text-align: right;
+  max-width: 500px;
+  font-size: 14px;
+  color: #4a5568;
+  position: relative;
+}
+
+.closing-text {
+  transition: opacity 0.3s ease-in-out;
+  min-height: 3rem;
+}
+
+.nav-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.arrow {
+  all: unset;
+  height: 23px;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #FF4D56;
+  transition: transform 0.2s ease;
+}
+
+.arrow:hover {
+  transform: scale(1.2);
+}
+
+.dots {
+  margin-top: 12px;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.dot {
+  all: unset;
+  width: 12px;
+  height: 12px;
+  border-radius: 99%;
+  background-color: #bbb;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dot.active {
+  background-color: #FF4D56;
+}
