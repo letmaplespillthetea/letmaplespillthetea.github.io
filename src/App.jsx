@@ -2,7 +2,8 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Homepage from "./Pages/Homepage";
-import BlogPage from "./Pages/BlogPage";
+import Blogpage from "./Pages/Blogpage";
+import BlogPost from "./Pages/BlogPost";
 import Navbar from "./Components/Navbar";
 
 function App() {
@@ -11,7 +12,8 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Homepage />} />
-        <Route path="/blog" element={<BlogPage />} />
+        <Route path="/blog" element={<Blogpage />} />
+        <Route path="/blog/:slug" element={<BlogPost />} />
       </Routes>
     </Router>
   );

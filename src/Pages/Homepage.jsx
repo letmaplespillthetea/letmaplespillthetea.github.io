@@ -3,10 +3,12 @@ import { FaUniversity } from 'react-icons/fa';
 import Navbar from '../Components/Navbar';
 import './Homepage.css';
 
+
 const Homepage = () => {
   return (
     <>
       <div className="homepage">
+     
         <section className="intro-section">
           <div className="intro-left">
             <div className="image-wrapper">
@@ -16,13 +18,13 @@ const Homepage = () => {
                 className="profile-image"
               />
               <div className="maple">
-                <img src="src/assets/maple.svg" alt="maple" className="maple" />
+                <img src="/maple.svg" alt="maple" className="maple" />
               </div>
             </div>
           </div>
 
           <div className="intro-arrow">
-            <img src="src/assets/arrow.svg" alt="arrow" className="arrow-img" />
+            <img src="/arrow.svg" alt="arrow" className="arrow-img" />
           </div>
 
           <div className="intro-right">
@@ -44,7 +46,7 @@ const Homepage = () => {
           <h2 className="work-title">Still in school, already in the game industry (sort of).</h2>
           <p className="work-text">
             Currently, I'm a third-year student at{' '}
-            <img src="src/assets/uet.svg" alt="uet" className="university-icon"/>
+            <img src="/uet.svg" alt="uet" className="university-icon"/>
             <span style={{ color: '#FF4D56'}}> UET-VNU</span>
             , <br/> and a game designer intern at 
             <span style={{ color: '#FF4D56'}}> Falcon Game Studio </span>.
