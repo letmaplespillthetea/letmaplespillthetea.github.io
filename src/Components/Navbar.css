@@ -1,5 +1,5 @@
 .navbar {
-  position: relative; 
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -7,7 +7,6 @@
   padding: 20px 40px;
   background-color: #FFCCCB;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  margin: 0 auto;
   font-family: 'Preahvihear', sans-serif;
   z-index: 1;
   height: 66px;

@@ -1,10 +1,12 @@
 // src/App.jsx
 import React from "react";
+import { useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Homepage from "./Pages/Homepage";
 import Blogpage from "./Pages/Blogpage";
 import BlogPost from "./Pages/BlogPost";
 import Navbar from "./Components/Navbar";
+import { transformThemeToBlue } from './utils/themeUtils'
 
 function App() {
   return (

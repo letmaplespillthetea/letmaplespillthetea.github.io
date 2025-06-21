@@ -213,8 +213,8 @@ body::before {
 
 .social-wrapper {
   position: absolute;
-  top: 90px; 
-  right: 12px;
+  top: 70px; 
+  right: 15px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -229,7 +229,7 @@ body::before {
 }
 
 .social-column img {
-  width: 32px;
+  width: 30px;
   height: auto;
   filter: brightness(0) saturate(100%) invert(40%) sepia(90%) saturate(800%) hue-rotate(320deg);
   transition: transform 0.3s ease, filter 0.3s ease;

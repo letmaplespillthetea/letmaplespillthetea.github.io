@@ -1,5 +1,6 @@
 import './Homepage.css';
 import ClosingSlider from '../Components/ClosingSlider.jsx';
+import Bookpage from './Bookpage.jsx';
 
 const Homepage = () => {
   return (
@@ -8,6 +9,9 @@ const Homepage = () => {
         <div className="social-wrapper">
           
           <div className="social-column">
+            <a href="https://github.com/letmaplespillthetea" target="_blank" rel="noopener noreferrer">
+              <img src="/social media/github.png" alt="Github" />
+            </a>
             <a href="https://www.instagram.com/lemoontear/" target="_blank" rel="noopener noreferrer">
               <img src="/social media/instagram.png" alt="Instagram" />
             </a>
@@ -69,6 +73,7 @@ const Homepage = () => {
             <img src="/gif/star.gif" className="gif-item" />
           </div>
         </section>
+        <Bookpage/>
       </div>
     </>
   );
