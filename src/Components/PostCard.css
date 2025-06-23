@@ -12,7 +12,7 @@
   margin-right: auto;
   margin-top: 10vh;
   margin-bottom: 10vh;
-  max-height: 250px;
+  height: 300px;
 }
 
 .postcard-content {
@@ -20,8 +20,9 @@
   backdrop-filter: blur(10px);
   z-index: 0;
   padding: 1.5rem;
-  border-radius: 1.25rem;
+  border-radius: 2rem;
   width: 150%;
+  height: 290px;
 }
 
 .postcard-content::before {
@@ -58,12 +59,13 @@
   text-transform: uppercase;
   font-size: 0.9rem;
   color: #6b7280;
-  margin-bottom: 0.5rem;
+  margin-bottom: -0.5rem;
   margin-left: 2.5rem;
   margin-top: -2px;
 }
 
 .postcard-title {
+  position: absolute;
   font-size: 1.8rem;
   font-weight: 700;
   color: #FF4D56;
@@ -72,12 +74,14 @@
 }
 
 .postcard-description {
+  position: absolute;
   font-size: 0.9rem;
   color: #333;
+  top: 125px;
   line-height: 1.6;
   margin-bottom: 1.5rem;
   margin-left: 2.5rem;
-  margin-top: -5.5px;
+  margin-top: 5.5px;
 }
 
 .postcard-link {
@@ -87,7 +91,6 @@
   text-decoration: none;
   font-size: 0.9rem;
   transition: all 0.3s ease;
-  margin-left: 2.5rem;
 }
 
 .postcard-link:hover {
@@ -100,12 +103,12 @@
   justify-content: center;
   align-items: center;
   z-index: 2; 
+  border-radius: 20px;
 }
 
 .postcard-thumbnail img {
-  width: 100%;
-  height: 250px;
-  border-radius: 12px;
-  max-width: 350px;
+  max-height: 350px;
+  border-radius: 20px;
+  max-width: 400px;
   object-fit: cover;
 }

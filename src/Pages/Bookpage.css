@@ -62,6 +62,10 @@
   z-index: 0;
 }
 
+.book-vertical:hover {
+  border: 5px solid #fff;
+}
+
 .book-vertical::after {
   content: "";
   position: absolute;

@@ -6,9 +6,10 @@ import Homepage from "./Pages/Homepage";
 import Blogpage from "./Pages/Blogpage";
 import BlogPost from "./Pages/BlogPost";
 import Navbar from "./Components/Navbar";
-import { transformThemeToBlue } from './utils/themeUtils'
+import themeUtils from './utils/themeUtils'
 
 function App() {
+  <themeUtils/>
   return (
     <Router>
       <Navbar />

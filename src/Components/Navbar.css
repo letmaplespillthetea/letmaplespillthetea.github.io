@@ -5,7 +5,7 @@
   align-items: center;
   width: 100%;
   padding: 20px 40px;
-  background-color: #FFCCCB;
+  background-color: var(--main-color);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   font-family: 'Preahvihear', sans-serif;
   z-index: 1;
@@ -27,6 +27,11 @@
   opacity: 0.4;
   z-index: -1;
 }
+
+body.custom-theme .navbar::after {
+  display: none;
+}
+
 .navbar-brand {
   font-size: 20px;
   font-weight: 600;

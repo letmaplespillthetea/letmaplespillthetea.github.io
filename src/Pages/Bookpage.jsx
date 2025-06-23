@@ -18,9 +18,9 @@ const books = [
     link: "https://www.nxbtre.com.vn/en/book/bui-xuan-phai-con-mat-cua-trai-tim-146425.html"
   },
   {
-    title: "Gió đầu mùa",
+    title: "Gió lạnh đầu mùa",
     author: "Thạch Lam",
-    link: "https://www.goodreads.com/book/show/22296279-gi-u-m-a"
+    link: "https://www.goodreads.com/book/show/31340091"
   },
   {
     title: "Chokepoint Capitalism",
