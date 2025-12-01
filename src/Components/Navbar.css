@@ -38,6 +38,10 @@ body.custom-theme .navbar::after {
   color: #1a202c;
 }
 
+.navbar-brand:hover {
+  color: #FF4D56;
+}
+
 .navbar-left {
   display: flex;
   align-items: center;

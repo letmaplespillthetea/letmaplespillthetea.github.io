@@ -23,6 +23,7 @@
   border-radius: 2rem;
   width: 150%;
   height: 290px;
+  gap:20px;
 }
 
 .postcard-content::before {

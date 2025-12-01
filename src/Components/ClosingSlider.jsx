@@ -2,8 +2,8 @@ import React, { useState, useRef } from 'react';
 import './ClosingSlider.css';
 
 const textSlides = [
-  "With an admiration for art that’s been with me since childhood, a light obsession with psychology and gaming, and a technical background, I'm taking my first steps into the game industry.",
-  "I’m nervous, but youthful. I’ve waited for certainty, but now I’m led by curiosity. I don’t have all the answers, just a stubborn heart, a love for creating, and the hope that something meaningful will come.",
+  "I love understanding the math and hardware pipeline behind computer graphics, rather than treating them as a black box, as if the artist’s intention were embedded in every stroke.", 
+  "I believe computer science is both creative and technical. My own journey has shown me how maths, algorithms, and art can intertwine, and how the right code can create a complete work of beauty.",
   "“Without any intentional, fancy way of adjusting yourself, to express yourself as you are is the most important thing.”\n — Shunryu Suzuki, Zen Mind, Beginner’s Mind (1970)"
 ];
 

@@ -1,6 +1,5 @@
 import './Homepage.css';
 import ClosingSlider from '../Components/ClosingSlider.jsx';
-import Bookpage from './Bookpage.jsx';
 
 const Homepage = () => {
   return (
@@ -44,9 +43,9 @@ const Homepage = () => {
 
           <div className="intro-right">
             <div className="hello-text">
-              Hello! I am <span className="highlight-name">Minh-Tam Le</span>~
+              Hello! I am <span className="highlight-name">Minh Tam LE</span>~
             </div>
-            <p className="subtitle">A random soul somewhere out there that</p>
+            <p className="subtitle">A girl on a mission to become imaginative and she</p>
             <h1 className="intro-heading">
               loves to play around with <span className="highlight-pixels">pixels</span>...
             </h1>
@@ -58,12 +57,14 @@ const Homepage = () => {
         </section>
 
         <section className="work-section">
-          <h2 className="work-title">Still in school, already in the game industry (sort of).</h2>
+          <h2 className="work-title">Hoping to grow both creatively and technically.</h2>
           <p className="work-text">
-            Currently, I'm a third-year student at{' '}
+            Currently, I'm a final year student at{' '}
             <span style={{ color: '#FF4D56'}}> UET-VNU</span>
-            , <br/> and a game designer intern at 
-            <span style={{ color: '#FF4D56'}}> Falcon Game Studio</span>.
+            , <br/> and I’m actively seeking a Master’s program <br/> in
+            <span style={{ color: '#FF4D56'}}> Computer Graphics </span>
+             and 
+            <span style={{ color: '#FF4D56'}}> Virtual Production</span>.
           </p>
         </section>
 
@@ -73,7 +74,6 @@ const Homepage = () => {
             <img src="/gif/star.gif" className="gif-item" />
           </div>
         </section>
-        <Bookpage/>
       </div>
     </>
   );

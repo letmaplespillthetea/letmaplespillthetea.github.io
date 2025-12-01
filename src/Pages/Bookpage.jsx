@@ -47,12 +47,14 @@ export default function Bookpage() {
         <div>
           <p>
             I love reading books that make me think or feel something new. 
-            I don’t stick to one type. I read stories, essays, and ideas from all kinds of places. 
-            Some books I finish in one sitting, others I return to again and again.
+            I don’t stick to one type. I read stories, essays, and ideas from all kinds of places.
+            Even with books I don’t fully understand, coming back to read them later with better 
+            and more mature perspectives, and seeing how my understanding has changed, is part of the fun. 
+            It feels like a new life achievement unlocked.
             <br/><br/>
             Reading helps me slow down and see things differently. 
             Sometimes it gives me answers. Sometimes it gives me better questions. 
-            I like books that surprise me, that stay in my head long after I close the last page.
+            I like books that surprise me, and stay in my head long after I close the last page.
           </p>
         </div>
       </div>

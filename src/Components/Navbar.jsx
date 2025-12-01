@@ -73,13 +73,13 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <div className="navbar-left">
-        <div className="navbar-brand">/ᐠ - ˕ -マ maple</div>
+        <Link to="/" className="navbar-brand">/ᐠ - ˕ -マ maple</Link>
       </div>
 
       <div className="navbar-links">
-        <Link to="/">Home</Link>
-        <Link to="/blog">Blog</Link>
-        <Link to="#">About</Link>
+        <Link to="/project">Projects</Link>
+        <Link to="/blog">Blogs</Link>
+        <Link to="/artwork">Artworks</Link>
       </div>
     </div>
   );
